@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     padding: 10%;
-    font-family: cyber;
+    font-family: 'cyber';
 }
 
 .login_form {
@@ -13,7 +13,7 @@
     height: 70vh;
 
     background-color: rgb(216, 216, 216);
-    
+  
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,12 +40,27 @@
     border: 0 bold white;
     padding: 10px 0px 10px 0px ;
     border: none;
-
+    margin: 10px 0 10px 0 10px ;
 }
+
+
+
+.login_form >button{
+    background-image: url("../../../assets/background.jpg");
+    background-size: contain;
+    padding: 5px 30px; 
+    margin: 40px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255); 
+    font-family: 'cyber';
+    
+}
+
 
 @media(max-width:800px ){
     .login_form{
         width: 90%;
+       
         
     }
 }
