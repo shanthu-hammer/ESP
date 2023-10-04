@@ -1,6 +1,16 @@
+@font-face {
+    font-family: 'cyber';
+    /* Specify your desired font family name */
+    src: url('../../fonts/PublicPixel-z84yD.ttf') format('truetype'),
+}
+
+
+
 .home {
     color: white;
     background-image: url("../../assets/background.jpg");
-    background-size: "cover";
+    background-size: cover;
     height: 100%;
+    font-family: cyber;
 }
+
