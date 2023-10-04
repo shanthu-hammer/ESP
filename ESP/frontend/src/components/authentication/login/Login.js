@@ -4,9 +4,9 @@ function Login() {
   return (
     <div className="login">
       <div className="login_form">
-        <h2>ID </h2>
+        <h4>ID </h4>
         <input></input>
-        <h2>PASSWORD</h2>
+        <h4>PASSCODE</h4>
         <input></input>
       </div>
     </div>

@@ -1,36 +1,51 @@
 .login {
     display: flex;
+    flex-direction: column;
+   
     justify-content: center;
-    padding: 7%;
+    align-items: center;
+    padding: 10%;
     font-family: cyber;
 }
 
 .login_form {
     width: 50%;
-
     height: 70vh;
 
-    background-color: #f0f0f0;
-    opacity: 0.5;
+    background-color: rgb(216, 216, 216);
+    
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     border-radius: 30px;
+    overflow: hidden; 
+    opacity: 0.3;
+    transition: opacity 0.3s ease;
 }
 
 .login_form:hover {
     opacity: 1
 }
 
-.login_form>h2 {
-    color: blue;
+.login_form>h4 {
+    color: #008299;
 }
 
 .login_form>input {
-    color: blue;
-    padding: 10px;
+    
+    color: #ff513c;
+    font: normal normal bold 10px/1.5 'cyber';
     border-radius: 5px;
     border: 0 bold white;
-    font-size: 15px;
+    
+    border: none;
+
+}
+
+@media(max-width:400px ){
+    .login_form{
+        width: 90%;
+        margin: 5% 0 5% 0;
+    }
 }
