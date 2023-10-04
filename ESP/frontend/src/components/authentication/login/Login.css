@@ -30,7 +30,7 @@
 
 .login_form>h4 {
     color: #008299;
-    margin-top: 5px;
+    
 }
 
 .login_form>input {
@@ -38,19 +38,21 @@
     color: #ff513c;
     font: normal normal bold 10px/1.5 'cyber';
     border-radius: 5px;
-    border: 0 bold white;
+    border: 0 solid transparent;
     padding: 10px 5px 10px 5px ;
-    border: none;
-    margin: 10px 0 10px 0 10px ;
+    
+    margin: 10px 0px 0px 0 10px ;
 }
 
-
+.login_form > input:focus {
+    border: 2px solid #ff513c;
+}
 
 .login_form >button{
     background-image: url("../../../assets/background.jpg");
     background-size: contain;
     padding: 5px 30px; 
-    margin: 40px;
+    margin: 30px 0px 30px 0px ;
     border-radius: 5px;
     color: rgb(255, 255, 255); 
     font-family: 'cyber';

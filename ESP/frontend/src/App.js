@@ -19,7 +19,8 @@ function App() {
       {/* <img src={background_img}></img> */}
       <Router>
         <RouteConfig>
-          <Route path="/" element={<Home />} />
+          <Route path="/dashboard" element={<Home />} />
+          <Route path="/login" element={<Home />} />
           {/* <Route path="/about" element={<About />} /> */}
         </RouteConfig>
       </Router>
