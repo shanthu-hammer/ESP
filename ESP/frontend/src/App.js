@@ -1,5 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 import {
   BrowserRouter as Router,
   Routes as RouteConfig,
@@ -19,7 +19,7 @@ function App() {
       {/* <img src={background_img}></img> */}
       <Router>
         <RouteConfig>
-          <Route path="/dashboard" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/login" element={<Home />} />
           {/* <Route path="/about" element={<About />} /> */}
         </RouteConfig>
