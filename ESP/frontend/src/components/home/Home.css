@@ -1,0 +1,6 @@
+.home {
+    color: white;
+    background-image: url("../../assets/background.jpg");
+    background-size: "cover";
+    height: 100%;
+}

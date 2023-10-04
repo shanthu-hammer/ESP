@@ -1,0 +1,36 @@
+.login {
+    display: flex;
+    justify-content: center;
+    padding: 8%;
+
+}
+
+.login_form {
+    width: 50%;
+    /* 50% of the viewport width */
+    height: 70vh;
+    /* 50% of the viewport height */
+    background-color: #f0f0f0;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.login_form:hover {
+    opacity: 1
+}
+
+.login_form>h2 {
+    color: blue;
+}
+
+.login_form>input {
+    color: blue;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0 bold white;
+    font-size: 15px;
+}
