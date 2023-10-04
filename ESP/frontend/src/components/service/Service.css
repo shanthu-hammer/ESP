@@ -5,21 +5,23 @@
     justify-content: center ;
     align-items: center; /* Align items in the center horizontally */
     text-align: center; 
-    margin: 1%;
+    margin: 3% 25% 3% 25%;
     opacity: .9;
     padding: 2%;
    border-radius: 10px;
+   max-width: 50%;
 }
 
 .service_description{
     justify-content: center;
     font-size: 10px;
-    margin: 5px;
+    margin-bottom: 10px;
 }
 
 .service> img {
-    height: 15%;
-    width: 15% ;
+    height: 30vh;
+    width: 40vw ;
+    background-size: contain;
     /* margin-bottom: 5px; */
 
 }

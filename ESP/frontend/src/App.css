@@ -9,5 +9,10 @@
 .app{ color: white;
     background-image: url("./assets/background.jpg");
     background-size: cover;
-    height: 100vh;
+    background-attachment: fixed;
+    
+    overflow: visible;
+    /* height: 100vh; */
     font-family: cyber;}
+
+   
