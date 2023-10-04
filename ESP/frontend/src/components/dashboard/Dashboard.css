@@ -1,0 +1,14 @@
+.dashboard{
+    display: flex;    
+    justify-content: start;
+    align-items: start;
+    flex-wrap:wrap
+    
+}
+.dashboard_container{
+    background-color: black;
+    background-size:  cover;
+    opacity: 1;
+    margin: 50px;
+    padding: 10px;
+}
