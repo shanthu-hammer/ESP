@@ -14,7 +14,7 @@ function Login() {
         <h4>ID </h4>
         <input></input>
         <h4>PASSCODE</h4>
-        <input></input>
+        <input type="password"></input>
         <button onClick={handleClick}>LOGIN</button>
       </div>
     </div>

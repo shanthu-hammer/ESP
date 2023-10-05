@@ -2,7 +2,9 @@
     display: flex;    
     justify-content: start;
     align-items: start;
-    flex-wrap:wrap
+    flex-wrap:wrap;
+    background-color: rgba(0, 0, 0, 0.568);
+    /* height: 100vh; */
     
 }
 .dashboard_container{

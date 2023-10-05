@@ -6,7 +6,7 @@ function Service({ Logo, name, expiraryDate, amount }) {
       <img src={Logo} alt={name}></img>
       <div className="service_description">{name}</div>
       <div className="service_description">{expiraryDate}</div>
-      <div className="service_description">{amount}</div>
+      <div className="service_description">¥{amount}</div>
     </div>
   );
 }
