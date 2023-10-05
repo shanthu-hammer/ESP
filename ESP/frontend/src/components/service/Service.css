@@ -22,11 +22,12 @@
 .service> img {
     height: 15vh;
     width: 20vw ;
-    background-size: contain;
+    background-size: fill;
     /* margin-bottom: 5px; */
 
 }
 
 .service :hover{
-opacity: 1;
+    
+    cursor: pointer;
 }

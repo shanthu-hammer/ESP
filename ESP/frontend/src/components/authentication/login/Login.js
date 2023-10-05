@@ -2,6 +2,7 @@ import React from "react";
 import "../login/Login.css";
 import "../../../assets/background.jpg";
 import { useNavigate } from "react-router-dom";
+import CustomButton from "../../button/CustomButton";
 function Login() {
   const navigate = useNavigate();
   const handleClick = () => {
@@ -15,7 +16,8 @@ function Login() {
         <input></input>
         <h4>PASSCODE</h4>
         <input type="password"></input>
-        <button onClick={handleClick}>LOGIN</button>
+        {/* <button onClick={handleClick}>LOGIN</button> */}
+        <CustomButton name="LOGIN" onClick={handleClick} />
       </div>
     </div>
   );

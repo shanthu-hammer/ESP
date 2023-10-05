@@ -16,7 +16,7 @@
     background-color: rgb(216, 216, 216);
   
     display: flex;
-    justify-content: center;
+    justify-content: center ;
     align-items: center;
     flex-direction: column;
     border-radius: 30px;
@@ -42,32 +42,13 @@
     border: 0 solid transparent;
     padding: 10px 5px 10px 5px ;
     
-    margin: 10px 0px 0px 0 10px ;
+    margin: 10px 0px 30px 0 10px ;
 }
 
 .login_form > input:focus {
     border: 2px solid #ff513c;
 }
 
-.login_form >button{
-    background-image: url("../../../assets/background.jpg");
-    background-size: cover;
-    /* padding: 5px 30px;  */
-    padding: 10px 30px;
-    margin: 30px 0px 30px 0px ;
-    border-radius: 5px;
-    color: rgb(255, 255, 255); 
-    font-family: 'cyber';
-    border: none;
-    transition: all 0.3s ease;
-    transform: perspective(1px) translateZ(0);
-    
-}
-.login_form >button:hover{
-cursor: pointer;
-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a subtle shadow for a 3D effect */
-    transform: scale(1.05);
-}
 
 
 @media(max-width:900px ){

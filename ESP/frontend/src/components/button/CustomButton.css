@@ -1,0 +1,26 @@
+.button{
+    background-image: url("../../assets/buttonBackGround.png");
+    background-size: cover;
+    /* padding: 5px 30px;  */
+    padding: 10px 30px;
+    margin-top: 30px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255); 
+    font-family: 'cyber';
+    border: none;
+    transition: all 0.3s ease;
+    transform: perspective(1px) translateZ(0);
+}
+
+
+
+
+
+
+
+.button:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a subtle shadow for a 3D effect */
+        transform: scale(1.05);
+    }
+    
