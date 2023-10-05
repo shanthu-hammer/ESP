@@ -5,7 +5,7 @@ import Netflix from "../../assets/logoCollection/netflixLogo.png";
 import Prime from "../../assets/logoCollection/primeLogo.jpg";
 import Hulu from "../../assets/logoCollection/huluLogo.jpg";
 import Astrill from "../../assets/logoCollection/astrillLogo.png";
-//test
+
 function Dashboard() {
   const userServices = [
     {
