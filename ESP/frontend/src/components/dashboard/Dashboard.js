@@ -5,37 +5,39 @@ import Netflix from "../../assets/logoCollection/netflixLogo.png";
 import Prime from "../../assets/logoCollection/primeLogo.jpg";
 import Hulu from "../../assets/logoCollection/huluLogo.jpg";
 import Astrill from "../../assets/logoCollection/astrillLogo.png";
-
+import Navbar from "../navbar/Navbar";
 function Dashboard() {
   const userServices = [
     {
       Logo: Netflix,
       name: "Netflix",
       expiraryDate: "22/10/2023",
-      amount: "RMB ",
+      amount: "28 ",
     },
     {
       Logo: Prime,
       name: "Prime Video",
       expiraryDate: "22/10/2023",
-      amount: "10000.00",
+      amount: "35",
     },
     {
       Logo: Hulu,
       name: "Hulu",
       expiraryDate: "22/10/2023",
-      amount: "10000.00",
+      amount: "28",
     },
     {
       Logo: Astrill,
       name: "Astrill",
       expiraryDate: "22/10/2023",
-      amount: "10000.00",
+      amount: "40",
     },
   ];
 
   return (
     <div className="dashboard">
+      <Navbar />
+
       {userServices.map((item) => (
         <Service
           Logo={item.Logo}

@@ -51,6 +51,11 @@
 
 
 
+.service_description_head{
+    text-align: left;
+}
+
+
 @media(max-width:900px ){
     .login_form{
         width: 90%;
@@ -64,3 +69,5 @@
         
     }
 }
+
+
