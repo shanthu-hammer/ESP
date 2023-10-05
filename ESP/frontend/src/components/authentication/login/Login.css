@@ -5,6 +5,8 @@
     align-items: center;
     padding: 10%;
     font-family: 'cyber';
+    
+   
 }
 
 .login_form {
@@ -49,7 +51,7 @@
 
 .login_form >button{
     background-image: url("../../../assets/background.jpg");
-    background-size: contain;
+    background-size: cover;
     padding: 5px 30px; 
     margin: 30px 0px 30px 0px ;
     border-radius: 5px;
@@ -59,10 +61,16 @@
 }
 
 
-@media(max-width:800px ){
+@media(max-width:900px ){
     .login_form{
         width: 90%;
+        
+        
        
+        
+    }
+    .login{
+        min-height: 100vh;
         
     }
 }

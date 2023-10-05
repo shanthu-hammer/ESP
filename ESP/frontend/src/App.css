@@ -7,12 +7,22 @@
 
 
 .app{ color: white;
+    margin: 0;
+    padding: 0;
+    
     background-image: url("./assets/background.jpg");
     background-size: cover;
     background-attachment: fixed;
-    
+    background-repeat: repeat;
     overflow: visible;
+   
     /* height: 100vh; */
     font-family: cyber;}
+
+@media(max-width: 400px){
+    .app{
+        /* height: 100vh;  */
+    }
+}
 
    
