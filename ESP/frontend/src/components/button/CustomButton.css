@@ -1,15 +1,17 @@
 .button{
     background-image: url("../../assets/buttonBackGround.png");
-    background-size: cover;
+    background-size:cover;
+    
    text-align: center;
     padding: 10px 30px;
-    /* margin-top: 30px; */
+    margin-top: 30px;
     border-radius: 5px;
     color: rgb(255, 255, 255); 
     font-family: 'cyber';
     border: none;
     transition: all 0.3s ease;
     transform: perspective(1px) translateZ(0);
+    flex-wrap:wrap;
 }
 
 
