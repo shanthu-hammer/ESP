@@ -5,8 +5,8 @@
     align-items: center;
     padding: 10%;
     font-family: 'cyber';
-    
-   
+    overflow-wrap: wrap;
+   text-align: center;
 }
 
 .login_form {
@@ -30,8 +30,10 @@
 }
 
 .login_form>h4 {
-    color: #008299;
-    
+    color: #008299;    
+}
+.login_form>h6 {
+    color: #ff513c;    
 }
 
 .login_form>input {
