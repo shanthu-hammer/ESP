@@ -6,27 +6,38 @@
     display: flex;
     overflow-wrap: wrap;
     font-size: 15px;
-    
-}
+    justify-content: space-between;   
+    }
 
 .navbar_heading{
-    overflow-wrap: wrap;
-  
+    overflow-wrap: wrap;  
     flex: .5;
-background-color: rgb(0, 0, 0); }
+    background-color: rgb(0, 0, 0); 
+    display: flex;
+}
 
-
-.navbar_contact{
+.navbar_contact,
+.navbar_signout {
+    /* text-align: right; */
     overflow-wrap: wrap;
-flex: .25;
-background-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    
+}
+
+.navbar_signout:hover, .navbar_contact:hover{
+cursor: pointer;
+color: #ff513c;
 
 }
 
-.navbar_signout{
-    
-    overflow-wrap: wrap;
-flex: .25;
-background-color: rgb(0, 0, 0);
-
+@media(max-width: 500px){
+    .navbar{        
+        font-size: 10px;
+    }
+    .navbar_contact{
+        padding: 2% 0 2% 0;
+    }
+    .navbar_signout{
+        padding: 2% 0 2% 0;
+    }
 }

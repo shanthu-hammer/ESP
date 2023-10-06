@@ -1,6 +1,7 @@
 import React from "react";
 import CustomButton from "../button/CustomButton";
 import "../navbar/Navbar.css";
+import "../../assets/buttonBackGround.png";
 const Navbar = () => {
   return (
     <div className="navbar">
