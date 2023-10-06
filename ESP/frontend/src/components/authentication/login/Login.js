@@ -11,8 +11,8 @@ function Login() {
   );
   const [status, setStatus] = useState(true);
   const handleClick = () => {
-    // console.log("ID is " + loginCredential.id);
-    // console.log("Passcode is " + loginCredential.password);
+    console.log("ID is " + loginCredential.id);
+    console.log("Passcode is " + loginCredential.password);
     if (loginCredential.id == "wei" && loginCredential.password == "wei123") {
       navigate("/dashboard");
     } else {
@@ -22,7 +22,7 @@ function Login() {
   const HandleOnChange = (e) => {
     setLoginCredential({
       ...loginCredential,
-      [e.target.name]: [e.target.value.trim()],
+      [e.target.name]: [e.target.value.trim().toLowerCase()],
     });
   };
 
@@ -30,7 +30,7 @@ function Login() {
   return (
     <div className="login">
       <div className="login_form">
-        {!status && <h6>Wrong ID or Passcode </h6>}
+        {!status && <h6>Wrong ID or Password </h6>}
 
         <h4>ID </h4>
         <input
