@@ -6,33 +6,28 @@
     display: flex;
     overflow-wrap: wrap;
     font-size: 15px;
-    justify-content: space-between;
-    
-    
-}
+    justify-content: space-between;   
+    }
 
 .navbar_heading{
     overflow-wrap: wrap;  
     flex: .5;
-    background-color: rgb(0, 0, 0); }
-
-
-.navbar_contact{
-    text-align: right;
-    overflow-wrap: wrap;
-     flex: .15; 
-    background-color: rgb(0, 0, 0);
-    
-
+    background-color: rgb(0, 0, 0); 
+    display: flex;
 }
 
-.navbar_signout{
-    text-align: right;
+.navbar_contact,
+.navbar_signout {
+    /* text-align: right; */
     overflow-wrap: wrap;
-    flex: .15; 
     background-color: rgb(0, 0, 0);
-    align-items: center;
     
+}
+
+.navbar_signout:hover, .navbar_contact:hover{
+cursor: pointer;
+color: #ff513c;
+
 }
 
 @media(max-width: 500px){
@@ -45,5 +40,4 @@
     .navbar_signout{
         padding: 2% 0 2% 0;
     }
-   
 }
