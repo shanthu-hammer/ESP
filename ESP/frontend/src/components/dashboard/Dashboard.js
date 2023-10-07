@@ -6,6 +6,7 @@ import Prime from "../../assets/logoCollection/primeLogo.jpg";
 import Hulu from "../../assets/logoCollection/huluLogo.jpg";
 import Astrill from "../../assets/logoCollection/astrillLogo.png";
 import Navbar from "../navbar/Navbar";
+import Aws_connection from "../../aws_esp/aws_connection";
 function Dashboard() {
   const userServices = [
     {
@@ -34,9 +35,20 @@ function Dashboard() {
     },
   ];
 
+  const contactClick = () => {
+    Aws_connection(); //Aws_connection
+  };
+
   return (
     <div className="dashboard">
       <Navbar />
+      <button
+        onClick={() => {
+          contactClick();
+        }}
+      >
+        Testing
+      </button>
 
       {userServices.map((item) => (
         <Service

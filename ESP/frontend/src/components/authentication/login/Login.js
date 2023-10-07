@@ -48,7 +48,7 @@ function Login() {
           name="password"
         ></input>
         {/* <button onClick={handleClick}>LOGIN</button> */}
-        <CustomButton name="LOGIN" onClick={handleClick} />
+        <CustomButton type="submit" name="LOGIN" onClick={handleClick} />
       </div>
     </div>
   );
