@@ -17,7 +17,7 @@ function App() {
         <RouteConfig>
           <Route path="/" element={<Login />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/dashboard/:id" element={<Dashboard />} />
           <Route path="/home" element={<Home />} />
         </RouteConfig>
       </Router>
