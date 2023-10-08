@@ -6,8 +6,11 @@ import Prime from "../../assets/logoCollection/primeLogo.jpg";
 import Hulu from "../../assets/logoCollection/huluLogo.jpg";
 import Astrill from "../../assets/logoCollection/astrillLogo.png";
 import Navbar from "../navbar/Navbar";
-import Aws_connection from "../../aws_esp/aws_connection";
+import Aws_connection from "../../utilities/aws_esp/aws_connection";
+import { useParams } from "react-router-dom";
 function Dashboard() {
+  const { id } = useParams();
+  console.log(id);
   const userServices = [
     {
       Logo: Netflix,
