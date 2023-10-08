@@ -35,8 +35,13 @@ function Dashboard() {
     },
   ];
 
-  const contactClick = () => {
-    Aws_connection(); //Aws_connection
+  const contactClick = async () => {
+    try {
+      let result = await Aws_connection("user_credential.json");
+      console.log(result); //Aws_connection
+    } catch (error) {
+      console.error("Error:", error);
+    }
   };
 
   return (

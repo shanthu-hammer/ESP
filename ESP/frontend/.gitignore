@@ -10,7 +10,8 @@
 
 # production
 /build
-
+/user_credential.json
+/.env
 # misc
 .DS_Store
 .env.local
