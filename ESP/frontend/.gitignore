@@ -12,6 +12,7 @@
 /build
 /user_credential.json
 /.env
+../../Temp_Update/
 # misc
 .DS_Store
 .env.local
