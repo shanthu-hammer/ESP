@@ -15,16 +15,22 @@
     background-color: rgb(0, 0, 0); 
     display: flex;
 }
+.navbar_buttons{
+    display: flex;
+    justify-content: space-between;
+}
 
-.navbar_contact,
-.navbar_signout {
+.navbar_buttons_contact,
+.navbar_buttons_signout {
     /* text-align: right; */
     overflow-wrap: wrap;
     background-color: rgb(0, 0, 0);
+    margin-left: 5vw;
+   
     
 }
 
-.navbar_signout:hover, .navbar_contact:hover{
+.navbar_buttons_signout:hover, .navbar_buttons_contact:hover{
 cursor: pointer;
 color: #ff513c;
 
@@ -34,10 +40,10 @@ color: #ff513c;
     .navbar{        
         font-size: 10px;
     }
-    .navbar_contact{
+    .navbar_buttons_contact{
         padding: 2% 0 2% 0;
     }
-    .navbar_signout{
+    .navbar_buttons_signout{
         padding: 2% 0 2% 0;
     }
 }
