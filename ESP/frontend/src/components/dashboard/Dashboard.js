@@ -6,7 +6,6 @@ import Prime from "../../assets/logoCollection/primeLogo.jpg";
 import Hulu from "../../assets/logoCollection/huluLogo.jpg";
 import Astrill from "../../assets/logoCollection/astrillLogo.png";
 import Navbar from "../navbar/Navbar";
-import Aws_connection from "../../utilities/aws_esp/aws_connection";
 import { useParams } from "react-router-dom";
 function Dashboard() {
   const { id } = useParams();
@@ -38,25 +37,9 @@ function Dashboard() {
     },
   ];
 
-  const contactClick = async () => {
-    try {
-      let result = await Aws_connection("user_credential.json");
-      console.log(result); //Aws_connection
-    } catch (error) {
-      console.error("Error:", error);
-    }
-  };
-
   return (
     <div className="dashboard">
       <Navbar />
-      <button
-        onClick={() => {
-          contactClick();
-        }}
-      >
-        Testing
-      </button>
 
       {userServices.map((item) => (
         <Service

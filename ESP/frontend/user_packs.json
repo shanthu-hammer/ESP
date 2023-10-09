@@ -1,0 +1,56 @@
+{
+    "wei": {
+        "services": {
+            "netflix": {
+                "start": "14/10/2023",
+                "end": "14/11/2023",
+                "duration": 1,
+                "status": "OnGoing",
+                "accid": "shanthu67890@gmail.com",
+                "accpassword": "Sunlight22"
+            },
+            "hulu": {
+                "start": "14/10/2023",
+                "end": "14/11/2023",
+                "duration": 1,
+                "status": "OnGoing",
+                "accid": "default@gmail.co",
+                "accpassword": "default"
+            },
+            "primevideo": {
+                "start": "14/10/2023",
+                "end": "14/11/2023",
+                "duration": 1,
+                "status": "OnGoing",
+                "accid": "default@gmail.co",
+                "accpassword": "default"
+            },
+            "astrill": {
+                "start": "14/10/2023",
+                "end": "14/11/2023",
+                "duration": 1,
+                "status": "OnGoing"
+            }
+        }
+    },
+    "deshitha": {
+        "astrill": {
+            "start": "14/10/2023",
+            "end": "14/11/2023",
+            "duration": 1,
+            "status": "OnGoing",
+            "accid": "default@gmail.co",
+            "accpassword": "default"
+        }
+    },
+    "somi": {
+        "astrill": {
+            "start": "14/10/2023",
+            "end": "14/11/2023",
+            "duration": 1,
+            "status": "OnGoing",
+            "accid": "default@gmail.co",
+            "accpassword": "default"
+        }
+    }
+}
