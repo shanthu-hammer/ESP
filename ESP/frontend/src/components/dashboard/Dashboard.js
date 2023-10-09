@@ -6,10 +6,19 @@ import Prime from "../../assets/logoCollection/primeLogo.jpg";
 import Hulu from "../../assets/logoCollection/huluLogo.jpg";
 import Astrill from "../../assets/logoCollection/astrillLogo.png";
 import Navbar from "../navbar/Navbar";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
+
 function Dashboard() {
+  const navigate = useNavigate();
   const { id } = useParams();
   console.log(id);
+  const ContactClick = () => {
+    navigate("/contact/" + id);
+    //alert("i have been clicked ");
+  };
+  const SignoutClick = () => {
+    navigate("/");
+  };
   const userServices = [
     {
       Logo: Netflix,
@@ -39,7 +48,7 @@ function Dashboard() {
 
   return (
     <div className="dashboard">
-      <Navbar />
+      <Navbar ContactClick={ContactClick} SignoutClick={SignoutClick} />
 
       {userServices.map((item) => (
         <Service
