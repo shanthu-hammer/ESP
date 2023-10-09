@@ -13,7 +13,7 @@ function Dashboard() {
   const { id } = useParams();
   console.log(id);
   const ContactClick = () => {
-    navigate("/contact");
+    navigate("/contact/" + id);
     //alert("i have been clicked ");
   };
   const SignoutClick = () => {
