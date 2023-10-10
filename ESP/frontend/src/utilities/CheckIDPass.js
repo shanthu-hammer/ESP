@@ -15,13 +15,13 @@ const CheckIDPass = async (id, password) => {
     console.log("Error:", error);
   }
   for (const idpass of userAuths) {
-    console.log("data from db ", idpass.id, idpass.pass);
+    //console.log("data from db ", idpass.id, idpass.pass);
     if (id == idpass.id && password == idpass.pass) {
       return true;
-    } else {
-      return false;
     }
   }
+
+  return false;
 
   // if(id == dbID && password == dbPassword){
 
