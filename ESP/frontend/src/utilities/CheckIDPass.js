@@ -12,7 +12,7 @@ const CheckIDPass = async (id, password) => {
     userAuths = await Aws_connection("user_credential.json");
     //console.log(userAuths[0]);
   } catch (error) {
-    console.log("Error:", error);
+    //console.log("Error:", error);
   }
   for (const idpass of userAuths) {
     //console.log("data from db ", idpass.id, idpass.pass);

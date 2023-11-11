@@ -1,8 +1,10 @@
 import AWS from "aws-sdk";
 const Aws_connection = async (fileName) => {
+ 
   AWS.config.update({
     accessKeyId: process.env.REACT_APP_AWS_ACCESS_KEY,
     secretAccessKey: process.env.REACT_APP_SECRECT_ACCESS_KEY,
+   
     //   region: "YOUR_REGION",
   });
   const s3 = new AWS.S3();
